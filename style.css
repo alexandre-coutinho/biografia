@@ -23,7 +23,7 @@ body {
 }
 
 .nome {
-    padding: 0px 20px;
+    padding: 0px 10px;
     font-size: 1.5rem;
     text-align: justify;        
 }
@@ -31,6 +31,11 @@ body {
 .nome p {
     font-size: 1.3rem;
     text-align: justify;    
+}
+
+.corpo {
+    max-width: 380px;
+    margin: auto;
 }
 
 .biografia {    
