@@ -27,6 +27,12 @@ body {
     text-align: justify;    
 }
 
+.nome p {
+    padding: 0px 10px;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
 .biografia {    
     padding: 0px 0px 30px 0px;
     font-family: arial;
