@@ -4,13 +4,14 @@ html {
     scroll-behavior: smooth;
     font-size: 70%;
     display: flex;
-    justify-content: center;
 }
 
 body {        
     font-family: 'JetBrains Mono', monospace;
     background-color: #15141bf3;
     color: #fafafadc;
+    min-width: 320px;
+    margin: auto;
 }
 
 
@@ -18,25 +19,27 @@ body {
     display: flex;    
     height: 150px;
     width: 150px;
-    padding: 10px 0px;    
+    padding: 10px 0px;        
 }
 
 .nome {
     padding: 0px 10px;
     font-size: 1.5rem;
     text-align: justify;    
+    
 }
 
 .nome p {
     padding: 0px 10px;
     font-size: 1.3rem;
     text-align: justify;
+    
 }
 
 .biografia {    
     padding: 0px 0px 30px 0px;
     font-family: arial;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     text-align: justify;
     max-width: 450px;
 }
@@ -123,3 +126,4 @@ body {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
